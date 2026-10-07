@@ -21,6 +21,8 @@ public class StudiKasus225 {
                     int kurang = 4 - jumlahDokumen;
                     System.out.println("Dokumen tidak lengkap. Dana penghargaan ditolak. Dokumen kurang: " + kurang);
                 }
+            } else {
+                System.out.println("Bukan juara 1, 2, atau 3. Dana penghargaan tidak diberikan");
             }
         }
     }
